@@ -7,8 +7,8 @@ def consistOFzero(vector):
     return OFzero
 def numberOFrows(V):
     return len(V)
-def numberOf(M):
+def numberOfcolums(M):
     return len(M)
 def ToReducedRowEchelonForm(M):
     Lead = 0
-#dafdadaffagagqghgqh
+    rowCount = numberOFrows()

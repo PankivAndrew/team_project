@@ -5,8 +5,8 @@ def consistOFzero(vector):
             OFzero = False
             break;
     return OFzero
-def numberOFrows(V):
-    return len(V)
+def numberOFrows(M):
+    return len(M[0])
 def numberOfcolums(M):
     return len(M)
 def ToReducedRowEchelonForm(M):
